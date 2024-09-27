@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><package xmlns="http://www.idpf.org/2007/opf" unique-identifier="PrimaryID" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>Endymion</dc:title>
+		<dc:language>en-US</dc:language>
+		<dc:identifier id="PrimaryID" opf:scheme="ISBN">978-0-307-78191-8</dc:identifier>
+		<dc:creator opf:file-as="Simmons, Dan" opf:role="aut">Dan Simmons</dc:creator>
+		<dc:publisher>Random House Publishing Group</dc:publisher>
+		<dc:date opf:event="publication">2011-01-05</dc:date>
+		<dc:rights>Copyright © 1995 by Dan Simmons</dc:rights>
+		<meta content="cover-image" name="cover"/>
+			<meta content="1.1" name="epubcheckversion"/>
+			<meta content="2010-12-22" name="epubcheckdate"/>
+	</metadata>
+	<manifest>
+		<item href="Simm_9780307781918_epub_ncx_r1.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_cvi_r1.htm" id="cvi" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_fm1_r1.htm" id="fm1" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_adc_r1.htm" id="adc" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_tp_r1.htm" id="tp" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_cop_r1.htm" id="cop" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_toc_r1.htm" id="toc" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_col1_r1.htm" id="col1" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c01_r1.htm" id="c01" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c02_r1.htm" id="c02" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c03_r1.htm" id="c03" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c04_r1.htm" id="c04" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c05_r1.htm" id="c05" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c06_r1.htm" id="c06" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c07_r1.htm" id="c07" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c08_r1.htm" id="c08" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c09_r1.htm" id="c09" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c10_r1.htm" id="c10" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c11_r1.htm" id="c11" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c12_r1.htm" id="c12" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c13_r1.htm" id="c13" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c14_r1.htm" id="c14" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c15_r1.htm" id="c15" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c16_r1.htm" id="c16" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c17_r1.htm" id="c17" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c18_r1.htm" id="c18" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c19_r1.htm" id="c19" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c20_r1.htm" id="c20" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c21_r1.htm" id="c21" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c22_r1.htm" id="c22" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c23_r1.htm" id="c23" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c24_r1.htm" id="c24" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c25_r1.htm" id="c25" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c26_r1.htm" id="c26" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c27_r1.htm" id="c27" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c28_r1.htm" id="c28" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c29_r1.htm" id="c29" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c30_r1.htm" id="c30" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c31_r1.htm" id="c31" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c32_r1.htm" id="c32" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c33_r1.htm" id="c33" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c34_r1.htm" id="c34" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c35_r1.htm" id="c35" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c36_r1.htm" id="c36" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c37_r1.htm" id="c37" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c38_r1.htm" id="c38" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c39_r1.htm" id="c39" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c40_r1.htm" id="c40" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c41_r1.htm" id="c41" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c42_r1.htm" id="c42" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c43_r1.htm" id="c43" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c44_r1.htm" id="c44" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c45_r1.htm" id="c45" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c46_r1.htm" id="c46" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c47_r1.htm" id="c47" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c48_r1.htm" id="c48" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c49_r1.htm" id="c49" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c50_r1.htm" id="c50" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c51_r1.htm" id="c51" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c52_r1.htm" id="c52" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c53_r1.htm" id="c53" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c54_r1.htm" id="c54" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c55_r1.htm" id="c55" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c56_r1.htm" id="c56" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c57_r1.htm" id="c57" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c58_r1.htm" id="c58" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c59_r1.htm" id="c59" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_c60_r1.htm" id="c60" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_ata_r1.htm" id="ata" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Simm_9780307781918_epub_css_r1.css" id="css" media-type="text/css"/>
+		<item href="OEBPS/images/Simm_9780307781918_epub_cvi_r1.jpg" id="cover-image" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Simm_9780307781918_epub_cvt_r1.jpg" id="fcvt" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Simm_9780307781918_epub_tp_r1.jpg" id="ftp" media-type="image/jpeg"/>
+		<item href="OEBPS/page-template.xpgt" id="page" media-type="application/vnd.adobe-page-template+xml"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cvi" linear="no"/>
+		<itemref idref="fm1" linear="yes"/>
+		<itemref idref="adc" linear="yes"/>
+		<itemref idref="tp" linear="yes"/>
+		<itemref idref="cop" linear="yes"/>
+		<itemref idref="toc" linear="yes"/>
+		<itemref idref="col1" linear="yes"/>
+		<itemref idref="c01" linear="yes"/>
+		<itemref idref="c02" linear="yes"/>
+		<itemref idref="c03" linear="yes"/>
+		<itemref idref="c04" linear="yes"/>
+		<itemref idref="c05" linear="yes"/>
+		<itemref idref="c06" linear="yes"/>
+		<itemref idref="c07" linear="yes"/>
+		<itemref idref="c08" linear="yes"/>
+		<itemref idref="c09" linear="yes"/>
+		<itemref idref="c10" linear="yes"/>
+		<itemref idref="c11" linear="yes"/>
+		<itemref idref="c12" linear="yes"/>
+		<itemref idref="c13" linear="yes"/>
+		<itemref idref="c14" linear="yes"/>
+		<itemref idref="c15" linear="yes"/>
+		<itemref idref="c16" linear="yes"/>
+		<itemref idref="c17" linear="yes"/>
+		<itemref idref="c18" linear="yes"/>
+		<itemref idref="c19" linear="yes"/>
+		<itemref idref="c20" linear="yes"/>
+		<itemref idref="c21" linear="yes"/>
+		<itemref idref="c22" linear="yes"/>
+		<itemref idref="c23" linear="yes"/>
+		<itemref idref="c24" linear="yes"/>
+		<itemref idref="c25" linear="yes"/>
+		<itemref idref="c26" linear="yes"/>
+		<itemref idref="c27" linear="yes"/>
+		<itemref idref="c28" linear="yes"/>
+		<itemref idref="c29" linear="yes"/>
+		<itemref idref="c30" linear="yes"/>
+		<itemref idref="c31" linear="yes"/>
+		<itemref idref="c32" linear="yes"/>
+		<itemref idref="c33" linear="yes"/>
+		<itemref idref="c34" linear="yes"/>
+		<itemref idref="c35" linear="yes"/>
+		<itemref idref="c36" linear="yes"/>
+		<itemref idref="c37" linear="yes"/>
+		<itemref idref="c38" linear="yes"/>
+		<itemref idref="c39" linear="yes"/>
+		<itemref idref="c40" linear="yes"/>
+		<itemref idref="c41" linear="yes"/>
+		<itemref idref="c42" linear="yes"/>
+		<itemref idref="c43" linear="yes"/>
+		<itemref idref="c44" linear="yes"/>
+		<itemref idref="c45" linear="yes"/>
+		<itemref idref="c46" linear="yes"/>
+		<itemref idref="c47" linear="yes"/>
+		<itemref idref="c48" linear="yes"/>
+		<itemref idref="c49" linear="yes"/>
+		<itemref idref="c50" linear="yes"/>
+		<itemref idref="c51" linear="yes"/>
+		<itemref idref="c52" linear="yes"/>
+		<itemref idref="c53" linear="yes"/>
+		<itemref idref="c54" linear="yes"/>
+		<itemref idref="c55" linear="yes"/>
+		<itemref idref="c56" linear="yes"/>
+		<itemref idref="c57" linear="yes"/>
+		<itemref idref="c58" linear="yes"/>
+		<itemref idref="c59" linear="yes"/>
+		<itemref idref="c60" linear="yes"/>
+		<itemref idref="ata" linear="yes"/>
+	</spine>
+	<guide>
+		<reference href="OEBPS/Simm_9780307781918_epub_c01_r1.htm" title="Start" type="start"/>
+		<reference href="OEBPS/Simm_9780307781918_epub_toc_r1.htm" title="Table of Contents" type="toc"/>
+		<reference href="OEBPS/Simm_9780307781918_epub_cvi_r1.htm" title="cover" type="cover"/>
+		<reference href="OEBPS/images/Simm_9780307781918_epub_cvt_r1.jpg" title="thumbimagestandard" type="thumbimagestandard"/>
+		<reference href="OEBPS/Simm_9780307781918_epub_cop_r1.htm" title="Copyright" type="copyright-page"/>
+	</guide>
+</package>

@@ -1,3 +1,4 @@
+import shutil
 from dataclasses import dataclass, asdict
 import zipfile
 import os
@@ -215,6 +216,11 @@ class Ebook(EbookObject):
                                         self.cover_image_path = os.path.join(self.ebook_folder_path, cover_path)
 
         xml_file.close()
+
+    def delete_archive(self):
+        # remove temp directory
+        shutil.rmtree(self.ebook_folder_path)
+
 
     def load_ebook(self):
         self.extract_epub(self.ebook_filepath, temp_path)

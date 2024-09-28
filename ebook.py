@@ -5,7 +5,6 @@ import os
 import re
 import xml.etree.ElementTree as ET
 
-epub_path = "C:/Users/david_dyn8g78/Downloads/[Hyperion Cantos 3 ] Simmons, Dan - Endymion (1920, Random House Publishing Group) - libgen.li.epub"
 temp_path = os.getcwd() + "/temp"
 metadataTags = [
     "title",
@@ -16,7 +15,6 @@ metadataTags = [
     "date",
     "rights",
 ]
-
 
 def find_opf_file(xml_file_path):
     # Read the content of the XML file
@@ -34,7 +32,6 @@ def find_opf_file(xml_file_path):
         return match.group(1)
     else:
         return None
-
 
 @dataclass
 class EbookObject:
@@ -62,7 +59,6 @@ class EbookObject:
     cover_image_path: str
     json_data_file_path: str
     navis_file_path: str
-
 
 class Ebook(EbookObject):
     def __init__(self, ebook_filepath: str):
@@ -149,10 +145,10 @@ class Ebook(EbookObject):
             else:
                 list_incorrect.append(key)
 
-        print("Correct:")
+        print("Found:")
         for item in list_correct:
             print(f" - {item}")
-        print("\nIncorrect:")
+        print("\nNot Found:")
         for item in list_incorrect:
             print(f" - {item}")
 
@@ -213,14 +209,13 @@ class Ebook(EbookObject):
                                 if id in line:
                                     if ("href" in line):
                                         cover_path = (line.split()[1].split("href=")[1].replace("\"", ""))
-                                        self.cover_image_path = os.path.join(self.ebook_folder_path, cover_path)
+                                        self.cover_image_path = os.path.normpath(os.path.join(os.path.dirname(self.content_file_path), cover_path))
 
         xml_file.close()
 
     def delete_archive(self):
         # remove temp directory
         shutil.rmtree(self.ebook_folder_path)
-
 
     def load_ebook(self):
         self.extract_epub(self.ebook_filepath, temp_path)

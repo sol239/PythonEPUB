@@ -1,9 +1,10 @@
-import shutil
-from dataclasses import dataclass, asdict
-import zipfile
 import os
 import re
+import shutil
 import xml.etree.ElementTree as ET
+import zipfile
+from dataclasses import dataclass, asdict
+from datetime import datetime
 
 temp_path = os.getcwd() + "/temp"
 metadataTags = [
@@ -58,7 +59,9 @@ class EbookObject:
     content_file_path: str
     cover_image_path: str
     json_data_file_path: str
-    navis_file_path: str
+    nav_file_path: str
+    date_added: str
+    date_last_opened: str
 
 class Ebook(EbookObject):
     def __init__(self, ebook_filepath: str):
@@ -84,7 +87,9 @@ class Ebook(EbookObject):
             content_file_path="",
             cover_image_path="",
             json_data_file_path="",
-            navis_file_path=""
+            nav_file_path="",
+            date_added="",
+            date_last_opened=""
         )
 
         self.ebook_filepath = ebook_filepath
@@ -125,9 +130,9 @@ class Ebook(EbookObject):
         self.filename = os.path.basename(epub_filepath)
 
         # --------- TBD -------------
-        self.navis_file_path = ""
-        self.date_added = ""
-        self.date_last_opened = ""
+        self.nav_file_path = ""
+        self.date_added = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        self.date_last_opened = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         # ----------------------------
 
     def print_ebook_object(self):
@@ -213,6 +218,28 @@ class Ebook(EbookObject):
 
         xml_file.close()
 
+    def add_navigation_data(self, content_filepath):
+        tree = ET.parse(content_filepath)
+        root = tree.getroot()
+        xml_file = open(content_filepath, 'r', encoding='utf-8')
+        nav_data = {}
+
+        chapters = []
+
+        for i in range(len(root)):
+            if "manifest" in root[i].tag:
+                print("Manifest found")
+                root = root[i]
+                x = 0
+                for child in root:
+                    if "item" in child.tag:
+                        id = child.attrib["id"]
+                        href = child.attrib["href"]
+                        nav_data[id] = href
+                        chapter_html = os.path.join(self.ebook_folder_path, href)
+                        nav_data[x] = chapter_html
+                        x += 1
+        self.navigation_data = nav_data
     def delete_archive(self):
         # remove temp directory
         shutil.rmtree(self.ebook_folder_path)
@@ -221,4 +248,4 @@ class Ebook(EbookObject):
         self.extract_epub(self.ebook_filepath, temp_path)
         self.get_epub_content_file_path()
         self.add_meta_data(self.content_file_path)
-
+        self.add_navigation_data(self.content_file_path)

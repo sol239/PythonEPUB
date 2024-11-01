@@ -1,7 +1,7 @@
 import os
 import re
 import shutil
-import xml.etree.ElementTree as ET
+import xml.etree.ElementTree as et
 import zipfile
 from dataclasses import dataclass, asdict
 from datetime import datetime
@@ -109,7 +109,7 @@ class Ebook(EbookObject):
             if debug and "already exists" in str(e):
                 print(f"get_epub_content_file_path() - Fail - {e}")
             raise
-        except ET.ParseError as e:
+        except et.ParseError as e:
             # Handle XML parsing errors
             if debug:
                 print(f"get_epub_content_file_path() - XML Parsing Error - {e}")
@@ -169,7 +169,7 @@ class Ebook(EbookObject):
 
     def add_meta_data(self, content_filepath):
 
-        tree = ET.parse(content_filepath)
+        tree = et.parse(content_filepath)
         root = tree.getroot()
         xml_file = open(content_filepath, 'r', encoding='utf-8')
 
@@ -219,7 +219,7 @@ class Ebook(EbookObject):
         xml_file.close()
 
     def add_navigation_data(self, content_filepath):
-        tree = ET.parse(content_filepath)
+        tree = et.parse(content_filepath)
         root = tree.getroot()
         xml_file = open(content_filepath, 'r', encoding='utf-8')
         nav_data = {}

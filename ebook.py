@@ -9,6 +9,7 @@ class EbookObject:
     Attributes
         title (str): The title of the ebook
         author (str): The author of the ebook
+        ...
     """
 
     title: str

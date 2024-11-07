@@ -19,8 +19,6 @@ metadataTags = [
     "rights",
 ]
 
-
-
 def find_opf_file(xml_file_path):
     # Read the content of the XML file
     with open(xml_file_path, 'r', encoding='utf-8') as file:
@@ -198,19 +196,16 @@ class Ebook(EbookObject):
         root = tree.getroot()
         xml_file = open(content_filepath, 'r', encoding='utf-8')
         nav_data = {}
-
         chapters = []
 
         for i in range(len(root)):
             if "manifest" in root[i].tag:
-                print("Manifest found")
                 root = root[i]
                 x = 0
                 for child in root:
                     if "item" in child.tag:
                         id = child.attrib["id"]
                         href = child.attrib["href"]
-                        nav_data[id] = href
                         chapter_html = os.path.join(self.ebook_folder_path, href)
                         nav_data[x] = chapter_html
                         x += 1

@@ -1,9 +1,6 @@
 import json
-import os
-from dataclasses import dataclass, asdict
-from idlelib.iomenu import encoding
+from dataclasses import asdict
 
-from epub_handler import Ebook
 from ebook import EbookObject
 
 def serialize(ebook:EbookObject, save:bool, save_dest:str = "") -> str:

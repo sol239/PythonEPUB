@@ -1,8 +1,8 @@
 from epub_handler import Ebook
-from epub_serializer import serialize, deserialize, load_json
+from epub_serializer import serialize, deserialize
 
 if __name__ == '__main__':
-    ebook = Ebook("C:/Users/david_dyn8g78/Downloads/Endymion - Dan Simmons.epub")
+    ebook = Ebook("demo/epub samples/sample1.epub")
 
     # print  ebook's attributes
     print(vars(ebook))

@@ -4,13 +4,14 @@ from epub_serializer import serialize, deserialize, load_json
 if __name__ == '__main__':
     ebook = Ebook("C:/Users/david_dyn8g78/Downloads/Endymion - Dan Simmons.epub")
 
-    # print
+    # print  ebook's attributes
     print(vars(ebook))
 
-    serialize(ebook, save=True)
+    # print ebook's title
+    print(ebook.title)
 
-    print(vars(deserialize("data.json")))
+    # save ebook into .json file
+    serialize(ebook, save=True, save_dest="")
 
-
-
-
+    # load ebook from .json file
+    ebook = deserialize("data.json")

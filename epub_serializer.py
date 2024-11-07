@@ -6,15 +6,17 @@ from idlelib.iomenu import encoding
 from epub_handler import Ebook
 from ebook import EbookObject
 
-def serialize(ebook:EbookObject, save:bool, save_dest:str = ""):
+def serialize(ebook:EbookObject, save:bool, save_dest:str = "") -> str:
     json_file = json.dumps(asdict(ebook))
     if (save):
         save_json(json_file, save_dest)
     return json_file
 
-def deserialize():
-
-    return
+def deserialize(json_file_path:str) -> EbookObject:
+    file = open(json_file_path, "r", encoding="utf-8")
+    ebook_data = json.load(file)
+    ebook = EbookObject(**ebook_data)
+    return ebook
 
 def save_json(json:str,json_file_path:str):
     if json_file_path == "":
@@ -24,5 +26,6 @@ def save_json(json:str,json_file_path:str):
     file.close()
     return
 
-def load_json(json_file_path:str):
-    return
+def load_json(json_file_path:str) -> str:
+    file = open(json_file_path, "r", encoding="utf-8").read()
+    return file

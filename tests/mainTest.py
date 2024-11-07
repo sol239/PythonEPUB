@@ -1,7 +1,7 @@
 import unittest
 import os
 
-from ebook import Ebook
+from epub_handler import Ebook
 
 test_tittle_sample_fail: str = "Title for sampleX.epub did not match the expected value"
 test_author_sample_fail: str = "Author for sampleX.epub did not match the expected value"

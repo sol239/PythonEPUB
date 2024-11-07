@@ -16,7 +16,7 @@ Python library to handle `.epub` ebook file format with option to save ebook’s
     - **demo.ipynb** = jupyter notebook with demo of the library
 - **tests/**
     - **mainTest.py** = unittesting
-- **.github**
+- **.github/**
     - **workflows/**
         - **main.yml** = used for github actions
 - **ebook.py** = .py file with the definition of ebook data class object

@@ -14,7 +14,6 @@ def get_sample_path(epub_file_name: str):
 
 class TestEbookClass(unittest.TestCase):
 
-
     def test_title_sample1(self):
         ebook_1 = Ebook(get_sample_path("sample1.epub"))
         ebook_1.delete_archive()

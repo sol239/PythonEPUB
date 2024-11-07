@@ -1,6 +1,8 @@
 from epub_handler import Ebook
 from epub_serializer import serialize, deserialize
 
+# DEMO
+
 if __name__ == '__main__':
     ebook = Ebook("demo/epub samples/sample1.epub")
 
